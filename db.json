@@ -1,0 +1,30 @@
+{
+  "producto": [
+    {
+      "name": "Consola 1",
+      "imageUrl": "/assets/images/consola1.PNG",
+      "price": "$111.11",
+      "id": "1"
+    },
+    {
+      "name": "Joystick",
+      "imageUrl": "/assets/images/joystick.jpg",
+      "price": "$$250.00.00",
+      "id": "5bcbbeda-887c-4b9f-a790-0c3650ae40ce"
+    }
+  ],
+  "user": [
+    {
+      "name": "Ezequiel",
+      "email": "ezequiel@correo.com",
+      "password": "Abcd1234",
+      "id": "1"
+    },
+    {
+      "nombre": "Malena",
+      "email": "malena@correo.com",
+      "password": "Amorcito123",
+      "id": "062770e1-b249-4ca1-bb21-84ca2b8c53a4"
+    }
+  ]
+}

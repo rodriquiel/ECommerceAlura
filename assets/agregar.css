@@ -1,0 +1,53 @@
+.agregar__div{
+    margin: 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem 0;
+}
+
+.agregar__input{
+    margin-bottom: 1rem;
+    width: 25rem;
+    height: 2rem;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 1% 3%;
+    border: none;
+    background-color: var(--gris-background);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px var(--gris-shadow);
+}
+
+.agregar__boton{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: var(--azul-principal);
+    box-shadow: 0 5px var(--azul-shadow);
+}
+
+.agregar__boton:hover{
+    box-shadow: 0 3px var(--azul-shadow);
+    top: 1px;
+}
+.agregar__boton:active {
+    box-shadow: 0 0 var(--azul-shadow);
+    top: 5px;
+}
+
+.agregar__input:focus {
+    border: none;
+    outline: none;
+}

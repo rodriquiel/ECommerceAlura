@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>AluraGeek</title>
+        <link rel="stylesheet" href="../assets/style.css">
+        <link rel="stylesheet" href="../assets/header.css">
+        <link rel="stylesheet" href="../assets/destaque.css">
+        <link rel="stylesheet" href="../assets/footer.css">
+        <link rel="stylesheet" href="../assets/login.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="header__div">
+                <a href="index.html"><p class="titulo">AluraGeek</p></a>
+                <input class="buscador" type="text" placeholder="Qué deseas buscar?">
+                <a href="login.html"><button class="header__login__boton" type="submit">Login</button></a>
+            </div>
+        </header>
+
+        <main>
+            <section class="login">
+                <div class="login__div">
+                    <form class="login__form" data-form>
+                        <h2 class="alura__titulo">Iniciar Sesión</h2>
+                        <input type="email" class="login__entrada"  placeholder="Email" data-email>
+                        <input type="password" class="login__entrada" placeholder="Password" data-password required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales.">
+                        <input type="submit" class="login__boton" value="Entrar">
+                    </form>
+                    <form class="login__form">
+                        <h2 class="alura__subtitulo">¿No tienes una cuenta?</h2>
+                        <a href="registro.html"><input type="button" class="login__boton" value="Registrate"></a>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+
+        <footer>
+            <section class="contacto">
+                <div class="contacto__div">
+                    <a href="index.html"><p class="titulo">AluraGeek</p></a>
+                    <div class="contacto__redireccion">
+                        <p>Quienes somos</p>
+                        <p>Politica de privacidad</p>
+                        <p>Nuestras tiendas</p>
+                        <p>Anuncie aqui</p>
+                    </div>
+                    <form class="contacto__formulario">
+                        <p class="titulo">Contactenos</p>
+                        <input class="contacto__formulario__nombre" type="text" placeholder="Nombre" required maxlength="40">
+                        <input class="contacto__formulario__texto" type="text" placeholder="Deje aqui su mensaje o consulta" required maxlength="120">
+                        <a href="mensaje_enviado.html"><button class="contacto__formulario__boton">Enviar mensaje</button></a>
+                    </form>
+                </div>
+            </section>
+            <form class="contacto__formulario">
+                <p class="titulo">Contactenos</p>
+                <input class="contacto__formulario__nombre" type="text" placeholder="Nombre" required maxlength="40">
+                <input class="contacto__formulario__texto" type="text" placeholder="Deje aqui su mensaje o consulta" required maxlength="120">
+                <a href="mensaje_enviado.html"><button class="contacto__formulario__boton">Enviar mensaje</button></a>
+            </form>
+        </footer>
+        <script type="module" src="/controllers/login-controller.js"></script>
+    </body>
+
+</html>

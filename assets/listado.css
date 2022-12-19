@@ -1,0 +1,98 @@
+.card__botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.eliminar__boton {
+    margin: 1rem 0;
+    min-width: 130px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: var(--rojo-principal);
+    box-shadow: 0 5px var(--rojo-shadow);
+}
+
+.eliminar__boton:hover {
+    box-shadow: 0 3px var(--rojo-shadow);
+    top: 1px;
+}
+
+.eliminar__boton:active {
+    box-shadow: 0 0 var(--rojo-shadow);
+    top: 5px;
+}
+
+
+.editar__boton {
+    margin: 1rem 0;
+    min-width: 130px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: var(--verde-principal);
+    box-shadow: 0 5px var(--verde-shadow);
+}
+  
+.editar__boton:hover {
+    box-shadow: 0 3px var(--verde-shadow);
+    top: 1px;
+}
+
+.editar__boton:active {
+    box-shadow: 0 0 var(--verde-shadow);
+    top: 5px;
+  }
+
+.agregar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.agregar__boton{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: var(--azul-principal);
+    box-shadow: 0 5px var(--azul-shadow);
+}
+
+.agregar__boton:hover{
+    box-shadow: 0 3px var(--azul-shadow);
+    top: 1px;
+}
+.agregar__boton:active {
+    box-shadow: 0 0 var(--azul-shadow);
+    top: 5px;
+}

@@ -1,0 +1,27 @@
+:root{
+    --azul-principal:#3a86ff;
+    --azul-shadow:#4433ff;
+    --gris-background:#f5f5f5;
+    --gris-shadow:#f1f1ee;
+    --beige-destaque: beige;
+    --gris-footer: #eaf2fd;
+    --gris-titulo: #464646;
+    --verde-principal: #80ed99;
+    --verde-shadow: #57cc99;
+    --rojo-principal: #ef233c;
+    --rojo-shadow: #d90429;
+}
+
+body {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    padding: 0;
+    background: #fefbf6;  
+}
+
+
+a{
+    text-decoration: none;
+}

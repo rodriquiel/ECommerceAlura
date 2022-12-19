@@ -1,0 +1,66 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>AluraGeek</title>
+        <link rel="stylesheet" href="../assets/style.css">
+        <link rel="stylesheet" href="../assets/header.css">
+        <link rel="stylesheet" href="../assets/destaque.css">
+        <link rel="stylesheet" href="../assets/footer.css">
+        <link rel="stylesheet" href="../assets/principal.css">
+        <link rel="stylesheet" href="../assets/agregar.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+    <body>
+        <header class="header">
+            <div class="header__div">
+                <a href="index.html"><p class="titulo">AluraGeek</p></a>
+                <input class="buscador" type="text" placeholder="Qué deseas buscar?">
+                <a href="login.html"><button class="header__login__boton" type="submit">Login</button></a>
+            </div>
+        </header>
+
+        <main>
+            <section class="principal">
+                <h2 class="principal__titulo">Ageregar nuevo producto</h2>
+                <form class="agregar__div" data-formprod>
+                    <input class="agregar__input" type="text" placeholder="Nombre producto" required data-nameprod/>
+                    <input class="agregar__input" type="text" placeholder="URL imagen producto" required data-urlprod/>
+                    <input class="agregar__input" type="text" placeholder="Precio producto" required data-priceprod/>
+                    <button type="submit" class="agregar__boton">Agregar producto</button>
+                </form>
+            </section>
+        </main>
+
+
+        <footer>
+            <section class="contacto">
+                <div class="contacto__div">
+                    <a href="index.html"><p class="titulo">AluraGeek</p></a>
+                    <div class="contacto__redireccion">
+                        <p>Quienes somos</p>
+                        <p>Politica de privacidad</p>
+                        <p>Nuestras tiendas</p>
+                        <p>Anuncie aqui</p>
+                    </div>
+                    <form class="contacto__formulario">
+                        <p class="titulo">Contactenos</p>
+                        <input class="contacto__formulario__nombre" type="text" placeholder="Nombre" required maxlength="40">
+                        <input class="contacto__formulario__texto" type="text" placeholder="Deje aqui su mensaje o consulta" required maxlength="120">
+                        <a href="mensaje_enviado.html"><button class="contacto__formulario__boton">Enviar mensaje</button></a>
+                    </form>
+                </div>
+            </section>
+            <div class="piePagina">
+                <p>Realizado por <a class="redireccion" href="https://www.linkedin.com/in/ezequiel-rodriguez-8b0a4923b/">Ezequiel Facundo Rodriguez</a></p>
+                <p>Oracle One-Next Education</p>
+                <p>Alura LATAM</p>
+                <a href="https://www.freepik.es/foto-gratis/manos-masculinas-sostienen-gamepad-espacio-copia-fondo-azul_21782709.htm#page=4&query=fondo%20videojuego&position=41&from_view=search&track=sph">Imagen de pvproductions en Freepik</a> 
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="module" src="/controllers/agregar-controller.js"></script>
+    </body>
+
+</html>
